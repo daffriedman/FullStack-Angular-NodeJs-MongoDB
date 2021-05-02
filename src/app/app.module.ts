@@ -13,6 +13,7 @@ import { HeaderComponent } from './header/header/header.component';
 import { PostListComponent } from './post-list/post-list/post-list.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [AppComponent, PostCreateComponent, HeaderComponent, PostListComponent],
   imports: [
@@ -25,7 +26,8 @@ MatCardModule,
     MatButtonModule,
     MatToolbarModule,
     MatExpansionModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
