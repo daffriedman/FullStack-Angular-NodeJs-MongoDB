@@ -1,6 +1,9 @@
 :host {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
-#noPostsMessage{
-    text-align: center;
+#noPostsMessage {
+  text-align: center;
+}
+mat-spinner {
+  margin: auto;
 }

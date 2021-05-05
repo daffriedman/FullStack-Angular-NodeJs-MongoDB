@@ -14,6 +14,7 @@ import { PostListComponent } from './post-list/post-list/post-list.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {HttpClientModule} from '@angular/common/http';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 @NgModule({
   declarations: [AppComponent, PostCreateComponent, HeaderComponent, PostListComponent],
   imports: [
@@ -27,7 +28,8 @@ MatCardModule,
     MatToolbarModule,
     MatExpansionModule,
     MatFormFieldModule,
-    HttpClientModule
+    HttpClientModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent],
